@@ -1,0 +1,128 @@
+:root {
+    --bg-default: #8257E5;
+    --bg-body: #130F1E;
+    --bg-hover: #9674E5;
+
+    --bd-focus: #D9CDF7;
+
+    --fc-default: #FFFFFF;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-body);
+    
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    gap: 24px;
+}
+
+#app {
+    max-width: 480px;
+    padding-inline: 40px;
+}
+
+#app-header h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+
+    color: var(--fc-default);
+}
+
+#app-header p {
+    font-family: 'Roboto', sans-serif;
+
+    color: var(--fc-default);
+    
+    opacity: 0.67;
+    margin-top: 10px;
+}
+
+.buttons {
+    margin-top: 100px;
+    display: grid;
+    gap: 32px;
+}
+
+
+.primary {
+    --bg-default: #8257E5;
+    --bg-hover: #9674E5;
+}
+
+.secondary {
+    --bg-default: #3c3748;
+    --bg-hover: #6a617f;
+}
+
+.tertiary {
+    --bg-default: transparent;
+    --bg-hover: transparent;
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+
+    background-color: var(--bg-default);
+    color: var(--fc-default);
+    border: 0;
+    border-radius: 24px;
+    
+    padding: 12px 24px;
+    
+    text-transform: uppercase;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+button:hover {
+    background-color: var(--bg-hover);
+}
+
+button:focus {
+    outline: 2px solid var(--bd-focus);
+}
+
+button:disabled {
+    opacity: 0.56;
+    cursor: not-allowed;
+}
+
+.loading{
+    cursor: progress;
+}
+
+.loading i {
+    font-size: 16px;
+    animation: spin 1000ms infinite linear;
+}
+
+.movable{
+    cursor: move;
+}
+
+.movable i {
+    font-size: 18px;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #1A1924;
+    
+    margin: 170px auto 0;
+}
+
+#app {
+    width: 100%;
+
+    font-family: 'Roboto', sans-serif;
+    color: #E1E1E6;
+
+    padding: 24px 32px;
+}
+
+#app-header {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+#app-header h2 {
+    font-weight: 700;
+
+}
+
+#app-header p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #00B37E;
+
+}
+
+#app-header .infos {
+    flex-grow: 2;
+
+}
+
+
+#app-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    margin-bottom: 30px;
+}
+
+#app-content .date {
+    margin-top: 26px;
+
+    font-size: 12px;
+    font-weight: normal;
+
+    line-height: 14px;
+
+    align-self: center;
+}
+
+#app-content .messages {
+    width: 150px;
+    font-size: 12px;
+    font-weight: normal;
+
+    line-height: 14px;
+
+}
+
+#app-content .your-messages {
+    align-self: flex-end;
+
+    text-align: right;
+}
+
+.messages p {
+    padding: 14px;
+    margin-top: 10px;
+}
+
+
+.user-messages p {
+    background-color: #633BBC;
+    border-radius: 8px 8px 8px 0;
+
+    width: fit-content;
+}
+
+.your-messages p {
+    background-color: #07847E;
+    border-radius: 8px 8px 0 8px;
+
+    width: fit-content;
+}
+
+#send-message {
+    position: relative;
+}
+
+#send-message input {
+    background-color: #282843;
+    
+    padding: 14px 24px;
+    border-radius: 999px;
+    
+    border: none;
+    width: 100%;
+}
+#send-message input::placeholder {
+    color: #E1E1E6;
+}
+
+#send-message button {
+    position: absolute;
+    top: 9px;
+    right: 16px;
+
+    background-color: transparent;
+    border: none;
+}
+
+
+@media (min-width: 600px) {
+    #app {
+        padding: 32px 72px;
+    }
+
+    #app-content .messages {
+        width: max-content;
+    }
+}
