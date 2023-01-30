@@ -36,7 +36,7 @@ Before starting, you will need to have the following tools installed on your mac
 $ git clone <https://github.com/Arthur-Ferreira/bora_codar>
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd bora_codar
+$ cd .\bora_codar\03_botoes_e_cursores\
 
 # Abra o arquivo html no navegador
 $ start .\index.html
