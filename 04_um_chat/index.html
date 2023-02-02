@@ -12,53 +12,69 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
+
+    <script src="https://unpkg.com/phosphor-icons"></script>
     <title>Um Chat</title>
 </head>
 
 <body>
     <div id="app">
-        <header id="app-header">
-            <img src="./assets/avatar.svg" alt="Avatar icon">
-            <div class="infos">
-                <h2> Cecilia Sassaki</h2>
-                <p>
-                    <img src="./assets/elipse.svg" alt="Ellipse icon">
-                    Online
-                </p>
+        <div id="top">
+            <div id="user-info">
+                <img src="https://randomuser.me/api/portraits/men/69.jpg" alt="Foto de perfil da usuária {usuária}">
+                <div class="user-status">
+                    <strong> Josevaldo Dias</strong>
+                    <div class="status">
+                        Online
+                    </div>
+                </div>
             </div>
-            <img src="./assets/close.svg" alt="X icon">
-        </header>
+            <div id="close-chat">
+                <i class="ph-x-fill"></i>
+            </div>
+        </div>
+        <div id="messages">
+            <div id="last-seen">Hoje 11:30</div>
 
-        <main id="app-content">
-            <div class="date">
-                <span>Hoje 11:30</span>
+            <div class="messages">
+                <div class="message">
+                    <div class="header">Josevaldo 11:30</div>
+                    <div class="message-content">
+                        Tive uma ideia incrível para um projeto! 😍
+                    </div>
+                </div>
+                <div class="message you">
+                    <div class="header">Você 11:32</div>
+                    <div class="message-content">
+                        Sério? Me conta mais.
+                    </div>
+                </div>
+                <div class="message">
+                    <div class="header">Josevaldo 11:34</div>
+                    <div class="message-content">
+                        E se a gente fizesse um chat moderno e responsivo em apenas uma semana?
+                    </div>
+                </div>
+                <div class="message you">
+                    <div class="header">Você 11:36</div>
+                    <div class="message-content">
+                        <strong>#boraCodar! 🚀</strong>
+                    </div>
+                </div>
             </div>
-
-            <div class="messages user-messages">
-                <span>Cecilia - 11:30</span>
-                <p>Tive uma ideia incrível para um projeto! 😍</p>
-            </div>
-
-            <div class="messages your-messages">
-                <span>Hoje - 11:30</span>
-                <p>Sério? Me conta mais.</p>
-            </div>
-
-            <div class="messages user-messages">
-                <span>Cecilia - 11:34</span>
-                <p>E se a gente fizesse um chat moderno e responsivo em apenas uma semana?</p>
-            </div>
-
-            <div class="messages your-messages">
-                <span>Hoje - 11:36</span>
-                <p>#boraCodar! 🚀</p>
-            </div>
-        </main>
-        <footer id="send-message">
-            <input type="text" placeholder="Digite sua mensagem">
-            <button><img src="./assets/send.svg" alt="Send message icon"></button>
-        </footer>
+        </div>
+        <div id="botton">
+            <form action="">
+                <div class="input-wrapper">
+                    <input type="text" placeholder="Digite sua mensagem" name="" id="">
+                    <button>
+                    <i class="ph-paper-plane-right-fill"></i>
+                </button>
+                </div>
+            </form>
+        </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>
