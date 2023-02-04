@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Desafio Botões e Cursores" src="./assets/logo.png" width="150px">
+  <img alt="Desafio Botões e Cursores" src="./assets/logo.png" width="250px">
 </h1>
 
 

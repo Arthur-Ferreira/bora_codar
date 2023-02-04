@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Um Player de Música" src="./assets/logo.png" width="150px">
+  <img alt="Um Player de Música" src="./assets/logo.png" width="250px">
 </h1>
 
 

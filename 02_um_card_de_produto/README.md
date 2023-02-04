@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Um Card De Produto" src="./assets/logo.png" width="150px">
+  <img alt="Um Card De Produto" src="./assets/logo.png" width="250px">
 </h1>
 
 

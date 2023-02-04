@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Um chat Logo" src="./assets/logo.png" width="150px">
+  <img alt="Um chat Logo" src="./assets/logo.png" width="250px">
 </h1>
 
 

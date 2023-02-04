@@ -1,8 +1,11 @@
-## 💻 Project
----
+<h1 align="center">
+  <img alt="Uma Calculadora Logo" src="./assets/logo.png" width="250px">
+</h1>
 
-This repository was created to store all project/challenges proposed during the #Boracodar challenge.
 
+<p align="center">
+  <img alt="Uma Calculadora Layout" title="Um chat" src="./assets/capa.png" width="50%" />
+</p>
 
 ## 🧰 Technologies
 ---
@@ -13,13 +16,17 @@ This project was developed with the following technologies:
 - CSS
 - JavaScript
 
+## 💻 Project
+---
+
+Project created to practice my knowledge during the fourth, Uma Calculadora, #Boracodar challenge.
+
 
 ### 👀 Prerequisites
 ---
 
 Before starting, you will need to have the following tools installed on your machine:<br/>
 [Git](https://git-scm.com) and a code editor like [VSCode](https://code.visualstudio.com/).
-
 
 ### 👨‍💻 Running the Project
 ---
@@ -29,10 +36,7 @@ Before starting, you will need to have the following tools installed on your mac
 $ git clone <https://github.com/Arthur-Ferreira/bora_codar>
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd bora_codar
-
-# Acesse uma das pasta dos projetos
-$ cd bora_codar\{nome-da-pasta}
+$ cd .\bora_codar\05_uma_calculadora\
 
 # Abra o arquivo html no navegador
 $ start .\index.html
@@ -40,7 +44,7 @@ $ start .\index.html
 
 ## 🔖 Layout
 
-Você pode visualizar os layouts dos projetos através [desse link](https://www.figma.com/@daniel2d). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/community/file/1202607074523509182). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 
 ---
